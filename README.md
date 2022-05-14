@@ -47,3 +47,9 @@ cp "${out_dir}" "${font_dir}"
 ```shell
 fc-cache -f -v
 ```
+
+## Thanks to
+
+- https://gitlab.gnome.org/GNOME/cantarell-fonts
+- https://github.com/s373r/cantarell-nerd-fonts-complete
+- https://github.com/fontforge/fontforge
