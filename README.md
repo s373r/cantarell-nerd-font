@@ -1,11 +1,11 @@
 # Cantarell + Nerd Fonts: Complete
 
-### Quick install
+## Quick install
 
 1) Download [the latest release](https://github.com/s373r/cantarell-nerd-fonts-complete/releases/latest)
 2) Install fonts
 
-### How to patch Cantarell font (or any)
+## How to patch Cantarell font (or any)
 
 1) Clone Nerd Fonts repo
 ```shell
