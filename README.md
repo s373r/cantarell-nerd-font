@@ -31,7 +31,7 @@ out_dir="${PWD}/cantarell-nerd-fonts-complite"
 
 for font in "${fonts[@]}"; do
     echo "Patch ${font}..."
-    ./FontForge*.AppImage -script ${PWD}/font-patcher -c "${font}" -out "${out_dir}"
+    ./FontForge*.AppImage -script ${PWD}/font-patcher -c "${font}" -out "${out_dir}" --careful
 done
 ```
 
