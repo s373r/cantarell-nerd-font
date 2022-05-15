@@ -1,4 +1,4 @@
-# Cantarell + Nerd Fonts: Complete
+# Cantarell + Nerd Fonts
 
 ## Quick install
 
@@ -31,7 +31,7 @@ out_dir="${PWD}/cantarell-nerd-fonts-complite"
 
 for font in "${fonts[@]}"; do
     echo "Patch ${font}..."
-    ./FontForge*.AppImage -script ${PWD}/font-patcher -c "${font}" -out "${out_dir}"
+    ./FontForge*.AppImage -script ${PWD}/font-patcher -c "${font}" -out "${out_dir}" --careful
 done
 ```
 
@@ -45,11 +45,11 @@ cp "${out_dir}" "${font_dir}"
 
 5) Regenerate font cache
 ```shell
-fc-cache -f -v
+fc-cache -rf
 ```
 
 ## Thanks to
 
 - https://gitlab.gnome.org/GNOME/cantarell-fonts
-- https://github.com/s373r/cantarell-nerd-fonts-complete
+- https://github.com/ryanoasis/nerd-fonts
 - https://github.com/fontforge/fontforge
