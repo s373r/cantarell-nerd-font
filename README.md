@@ -51,5 +51,5 @@ fc-cache -f -v
 ## Thanks to
 
 - https://gitlab.gnome.org/GNOME/cantarell-fonts
-- https://github.com/s373r/cantarell-nerd-fonts-complete
+- https://github.com/ryanoasis/nerd-fonts
 - https://github.com/fontforge/fontforge
