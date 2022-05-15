@@ -1,5 +1,9 @@
 # Cantarell + Nerd Fonts
 
+![a screenshot with updated fonts](./assets/example.png)
+
+GNOME extension: https://extensions.gnome.org/extension/3851/workspaces-bar/
+
 ## Quick install
 
 1) Download [the latest release](https://github.com/s373r/cantarell-nerd-fonts-complete/releases/latest)
