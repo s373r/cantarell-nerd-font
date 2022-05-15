@@ -1,4 +1,4 @@
-# Cantarell + Nerd Fonts: Complete
+# Cantarell + Nerd Fonts
 
 ## Quick install
 
