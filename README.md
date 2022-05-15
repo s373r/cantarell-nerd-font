@@ -45,7 +45,7 @@ cp "${out_dir}" "${font_dir}"
 
 5) Regenerate font cache
 ```shell
-fc-cache -f -v
+fc-cache -rf -v
 ```
 
 ## Thanks to
